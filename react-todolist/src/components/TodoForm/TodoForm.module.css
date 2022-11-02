@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.form input {
+  width: 50rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  border-bottom: 2px dashed black;
+  transition: all 0.2s;
+}
+
+.form input.invalid {
+  border-color: tomato;
+}
+
+.form button {
+  padding: 1rem 3rem;
+  background-color: #fff;
+  border: 2px solid black;
+  transition: all 0.2s;
+}
+
+.form button:hover {
+  background-color: #000;
+  color: #fff;
+  scale: 1.1;
+}
+
+.form button:active {
+  scale: 0.9;
+}

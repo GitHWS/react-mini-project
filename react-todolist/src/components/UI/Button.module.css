@@ -1,0 +1,17 @@
+.button {
+  width: 4rem;
+  height: 4rem;
+  background-color: #fff;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+
+.button:hover {
+  scale: 1.1;
+  background-color: black;
+  color: #fff;
+}
+
+.button:active {
+  scale: 0.9;
+}
